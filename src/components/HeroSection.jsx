@@ -16,12 +16,23 @@ const HeroSection = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e3d253aa8896e336b8e106f0c18931591032a50c69d8cfdc7b1305a30d48760?apiKey=62b2285ae91949d9b043934f2d3db0e1&"
               className="shrink-0 self-stretch max-w-full aspect-[3.7] w-[136px]"
             />
-            <a className="self-stretch my-auto font-medium">Products</a>
-            <a className="self-stretch my-auto">Features</a>
-            <div className="self-stretch my-auto">Pricing</div>
-            <div className="self-stretch my-auto">Support</div>
+            <a href="#" className="self-stretch my-auto font-medium">
+              Products
+            </a>
+            <a href="#" className="self-stretch my-auto">
+              Features
+            </a>
+            <a href="#" className="self-stretch my-auto">
+              Pricing
+            </a>
+            <a href="#" className="self-stretch my-auto">
+              Support
+            </a>
           </div>
-          <div className="justify-center px-4 py-3 text-right text-white border border-cyan-300 border-solid leading-[162.5%] rounded-[60px] max-md:px-5">
+          <div
+            href="#"
+            className="justify-center px-4 py-3 text-right text-white border border-cyan-300 border-solid leading-[162.5%] rounded-[60px] max-md:px-5"
+          >
             Start free trial
           </div>
         </div>
@@ -43,7 +54,11 @@ const HeroSection = () => {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb6e799352432f84d7353f02c5fa9435ed382ede459b4eee634f0781b32b841a?apiKey=62b2285ae91949d9b043934f2d3db0e1&"
                       className="shrink-0 my-auto aspect-square w-[18px]"
                     />
-                    <div>Try your better offer anf service</div>
+                    <input
+                        type="text"
+                      className="flex flex-auto gap-3.5 my-auto text-zinc-500"
+                      placeholder="Try your better offer and service"
+                    />
                   </div>
                   <div className="justify-center p-4 font-semibold text-right uppercase bg-white rounded-[60px] text-zinc-900">
                     Open to give offer
@@ -77,7 +92,7 @@ const HeroSection = () => {
                         Guy Hawkins
                       </div>
                       <div className="relative mt-3.5 text-sm leading-5 text-zinc-400">
-                        Software Engineer
+                        Regular Customer
                       </div>
                     </div>
                   </div>
