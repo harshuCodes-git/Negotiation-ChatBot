@@ -16,7 +16,7 @@ function App() {
   //   setAnswer("");
   //   try {
   //     const response = await axios({
-  //       url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBP3NIQs7_xLIVifDYq31dnVEVzrb--JdI`,
+  //       url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=API_KEY`,
 
   //       method: "POST",
   //       data: {
