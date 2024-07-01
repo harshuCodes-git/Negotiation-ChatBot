@@ -48,18 +48,18 @@ const HeroSection = () => {
                   the price of a product with their choice and comfort.{" "}
                 </div>
                 <div className="flex gap-3.5 py-2 pr-2 pl-4 mt-20 w-full text-sm leading-5 border border-cyan-300 border-solid rounded-[60px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-                  <div className="flex flex-auto gap-3.5 my-auto text-zinc-500">
+                  
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb6e799352432f84d7353f02c5fa9435ed382ede459b4eee634f0781b32b841a?apiKey=62b2285ae91949d9b043934f2d3db0e1&"
-                      className="shrink-0 my-auto aspect-square w-[18px]"
+                      className="shrink-0  aspect-square w-[18px]"
                     />
                     <input
                         type="text"
-                      className="flex flex-auto gap-3.5 my-auto text-zinc-500"
+                      className="flex flex-auto bg-[black] border-[black] text-zinc-500"
                       placeholder="Try your better offer and service"
                     />
-                  </div>
+                  {/* </div> */}
                   <div className="justify-center p-4 font-semibold text-right uppercase bg-white rounded-[60px] text-zinc-900">
                     Open to give offer
                   </div>
