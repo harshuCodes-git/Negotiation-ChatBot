@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = () => {
   return (
@@ -53,11 +53,12 @@ const HeroSection = () => {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb6e799352432f84d7353f02c5fa9435ed382ede459b4eee634f0781b32b841a?apiKey=62b2285ae91949d9b043934f2d3db0e1&"
                     className="shrink-0  aspect-square w-[18px]"
                   />
-                  <textarea>
-                    type="text" className="flex flex-auto bg-[black]
-                    border-[black] text-zinc-500" placeholder="Try your better
-                    offer and service"
-                  </textarea>
+                  <textarea
+                    type="text"
+                    className="flex flex-auto bg-[black]
+                    border-[black] p-2 text-zinc-500"
+                    placeholder="Try your better offer and service"
+                  ></textarea>
                   {/* </div> */}
                   <div className="justify-center p-4 font-semibold text-right uppercase bg-white rounded-[60px] text-zinc-900">
                     Open to give offer
@@ -118,6 +119,6 @@ const HeroSection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;
