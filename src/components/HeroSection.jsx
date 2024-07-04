@@ -29,12 +29,12 @@ const HeroSection = () => {
               Support
             </a>
           </div>
-          <div
+          <a
             href="#"
             className="justify-center px-4 py-3 text-right text-white border border-cyan-300 border-solid leading-[162.5%] rounded-[60px] max-md:px-5"
           >
             Start free trial
-          </div>
+          </a>
         </div>
         <div className="relative mt-24 mb-4 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
